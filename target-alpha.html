@@ -1,0 +1,57 @@
+---
+layout: default
+section_id: portfolio
+images:
+  - images/target-alpha/alpha1.jpg
+  - images/target-alpha/alpha2.jpg
+---
+
+<div class='full'>
+  <div class='row'>
+    <div class='large-8 columns'>
+      <div class='mod modBoxedSlider'>
+        <div class='slides'>
+          {% for image in page.images %}
+            <div class="slide">
+              <img src="{{site.url}}/{{image}}" alt="">
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    <div class='large-4 columns'>
+      <h3>Target Alpha</h3>
+        <p>The summer I was at SHAD Valley, I discovered an incredibly neat program designed to give Canadian secondary students remarkable opportunities in business, investments and networking.  Moreover, I learnt that this financial literacy program was only available in the eastern provinces and so I decided to champion my efforts in bringing this initiative, Target Alpha to British Columba.</p><br>
+        <p>Today, I am proud to be the Vice-President of the BC Chapter and my team and I have managed to engage 13 different high schools across Greater Vancouver to set up their own Target Alpha Teams.</p>
+      </p>
+      <ul class='info'>
+        <li>
+          <strong>Client:</strong>
+          themeforest
+        </li>
+        <li>
+          <strong>Date:</strong>
+          June 2013
+        </li>
+      </ul>
+      <!-- <div class='spacing'></div> -->
+      <!-- <a class='button small' href='http://www.myccmp.org/'>Visit website</a> -->
+      <div class='spacing'></div>
+      <ul class='info'>
+        <li>
+          <div class='spacing'></div>
+          <a href='{{site.url}}/shad-valley.html' title='previous'>
+            <i class='icon-left-open'></i>
+          </a>
+          <a href='leadership.html' title='back to work list'>
+            <i class='icon-layout'></i>
+          </a>
+          <a href='{{site.url}}/yac.html' title='next'>
+            <i class='icon-right-open'></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class='four spacing'></div>
+</div>

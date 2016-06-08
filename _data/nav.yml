@@ -1,0 +1,32 @@
+- name: Education
+  path: education.html
+  section_id: services
+- name: Awards & Achievements
+  path: blog/
+  section_id: portfolio
+- name: Leadership
+  path: leadership.html
+  section_id: blog
+  children:
+    - name: Headboy
+      path: headboy.html
+    - name: CCMP 2016
+      path: ccmp.html
+    - name: SHAD Valley
+      path: shad-valley.html
+    - name: Target Alpha
+      path: target-alpha.html
+    - name: YAC
+      path: yac.html
+    - name: Admissions Ambassador
+      path: admissions.html
+- name: Public Speaking
+  path: public-speaking.html
+  section_id: public-speaking
+  section_id: portfolio
+- name: Basketball
+  path: basketball.html
+  section_id: basketball
+- name: Contact
+  path: contact.html
+  section_id: contact

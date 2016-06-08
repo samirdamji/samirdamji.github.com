@@ -1,0 +1,121 @@
+---
+layout: default
+section_id: awards
+awards:
+  - icon_class: fa fa-star-half-empty
+    title: Ad Verum
+    text:
+      AD VERUM Staff Writer for School’s Newspaper. Published general articles on both student life and world headlines.
+  - icon_class: fa fa-trophy
+    title: GVRSF (Grade 9)
+    text:
+      Greater Vancouver Regional Science Fair -  Received Honorable Mention for science fair presentation entitled, “The Fountain of Filth”
+  - icon_class: fa fa-trophy
+    title: GVRSF (Grade 10)
+    text:
+      Greater Vancouver Regional Science Fair - Won GOLD Award for my science poster presentation named, “Rehydrate & Dominate”
+  - icon_class: fa fa-star-half-empty
+    title: Harvard Economics
+    text:
+      Model UN 2015 - attended conference in NYC; represented South Africa on the UNODC committee.  Drafted a resolution on how to combat organized crime, illicit drug trafficking and terrorism.
+  - icon_class: fa fa-trophy
+    title: Public Speaking
+    text:
+      INTERNATIONAL INDEPENDENT SCHOOL PUBLIC SPEAKING COMPETITION in Toronto, October 2015 -  was one of three students invited to present in three categories at this International Competition - Won 2nd place in the Finals of Radio Newscast category.
+
+works:
+  - image: images/@stock/one-page-work-1.jpg
+    title: Beautiful Girl
+    link_to: portfolio-item.html
+    class: graphic-design
+    desc: Design &amp; Development
+  - image: images/@stock/one-page-work-2.jpg
+    title: Look at me
+    link_to: portfolio-item.html
+    class: web-design print
+    desc: Design &amp; Development
+  - image: images/@stock/one-page-work-3.jpg
+    title: Am I cute
+    link_to: portfolio-item.html
+    class: brand
+    desc: Design &amp; Development
+  - image: images/@stock/one-page-work-4.jpg
+    title: Umbrella
+    link_to: portfolio-item.html
+    class: development
+    desc: Design &amp; Development
+
+---
+
+
+<div class='full'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <h4 style='color: #999'>"Find yourself and be that."</h4>
+      <h2>Education</h2>
+      <div class='spacing'></div>
+      <p>Collingwood School has gifted me with not only a solid education but has provided me with skill sets that I will use for the rest of my life.  The Four Strands at our school (Academics, Arts, Athletics and Service) I hold responsible for shaping me into the very person I am today.  Both the academic and extracurricular opportunities I have enjoyed here have prepared me well to take on challenges that I will face tomorrow. </p>
+      <!-- <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.</p> -->
+    </div>
+  </div>
+  <div class='three spacing'></div>
+</div>
+<!-- <div class='full' style='background: #f5f5f5'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <div class='mod modBoxedTextSlider'>
+        <div class='boxes'>
+          {% for service in page.services %}
+            <div class='box' style='background: #f9f9f9;'>
+              <i class='{{service.icon_class}}'></i>
+              <h4>{{service.title}}</h4>
+              <p>{{service.desc}}</p>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class='four spacing'></div>
+</div> -->
+
+<div class='full' style='background: #f5f5f5'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <div class='mod modBoxedTextSlider'>
+        <div class='boxes'>
+          {% for award in page.awards %}
+            <div class='box' style=''>
+              <i class='{{award.icon_class}}'></i>
+              <h4>{{award.title}}</h4>
+              <p>{{award.text}}</p>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class='two spacing'></div>
+</div>
+
+<div class='full'>
+  <div class='row'>
+    <div class='mod modGallery'>
+      <ul class='gallery large-block-grid-4 medium-block-grid-3 seperated small-block-grid-2'>
+        {% for work in page.works %}
+          <li class='{{work.class}}'>
+            <a href='{{work.link_to}}'>
+              <img alt="" src="{{site.url}}/{{work.image}}" />
+              <div class='overlay' style='background: rgba(143, 221, 115, 0.8);'>
+                <div class='thumb-info'>
+                  <h3>{{work.title}}</h3>
+                  <p>{{work.desc}}</p>
+                </div>
+              </div>
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+  <div class='four spacing'></div>

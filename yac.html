@@ -1,0 +1,58 @@
+---
+layout: default
+section_id: portfolio
+images:
+  - images/@stock/medium-work-1.jpg
+  - images/@stock/medium-work-2.jpg
+---
+
+<!-- missing YAC photos -->
+
+<div class='full'>
+  <div class='row'>
+    <div class='large-8 columns'>
+      <div class='mod modBoxedSlider'>
+        <div class='slides'>
+          {% for image in page.images %}
+            <div class="slide">
+              <img src="{{site.url}}/{{image}}" alt="">
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    <div class='large-4 columns'>
+      <h3>YAC: Youth Advisory Council</h3>
+        <p>I am currently the Chairperson for YAC, the Youth Advisory Council for West Vancouver.  My team and I ensure that YAC gives the youth in our community a strong voice.  It is my duty to then present these expressed views to our West Vancouver Council members.  Recently we hosted a Youth Week Awards Night and made a presentation of the issue of technology and youth in today’s society. </p>
+      </p>
+      <ul class='info'>
+        <li>
+          <strong>Client:</strong>
+          themeforest
+        </li>
+        <li>
+          <strong>Date:</strong>
+          June 2013
+        </li>
+      </ul>
+      <div class='spacing'></div>
+      <!-- <a class='button small' href='http://www.myccmp.org/'>Visit website</a> -->
+      <!-- <div class='spacing'></div> -->
+      <ul class='info'>
+        <li>
+          <div class='spacing'></div>
+          <a href='{{site.url}}/target-alpha.html' title='previous'>
+            <i class='icon-left-open'></i>
+          </a>
+          <a href='leadership.html' title='back to work list'>
+            <i class='icon-layout'></i>
+          </a>
+          <a href='admissions.html' title='next'>
+            <i class='icon-right-open'></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class='four spacing'></div>
+</div>

@@ -1,0 +1,83 @@
+---
+layout: default
+section_id: portfolio
+works:
+  - image: images/@stock/one-page-work-1.jpg
+    title: Beautiful Girl
+    link_to: portfolio-item.html
+    class: graphic-design
+    desc: Design &amp; Development
+  - image: images/@stock/one-page-work-2.jpg
+    title: Look at me
+    link_to: portfolio-item.html
+    class: web-design print
+    desc: Design &amp; Development
+  - image: images/@stock/one-page-work-3.jpg
+    title: Am I cute
+    link_to: portfolio-item.html
+    class: brand
+    desc: Design &amp; Development
+  - image: images/@stock/one-page-work-4.jpg
+    title: Umbrella
+    link_to: portfolio-item.html
+    class: development
+    desc: Design &amp; Development
+  - image: images/@stock/one-page-work-5.jpg
+    title: Canned Bros
+    link_to: portfolio-item.html
+    class: print brand
+    desc: Design &amp; Development
+  - image: images/@stock/one-page-work-6.jpg
+    title: Hale
+    link_to: portfolio-item.html
+    class: web-design
+    desc: Design &amp; Development
+  - image: images/@stock/one-page-work-7.jpg
+    title: A beautiful day
+    link_to: portfolio-item.html
+    class: web-design
+    desc: Design &amp; Development
+  - image: images/@stock/one-page-work-8.jpg
+    title: Flower Book
+    link_to: portfolio-item.html
+    class: graphic-design
+    desc: Design &amp; Development
+
+---
+
+<div class='full'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <h4 style='color: #999'>### insert quote here ###</h4>
+      <h2>Basketball</h2>
+      <div class='spacing'></div>
+      <p>I find it truly remarkable that such a simple game –with just a ball and basket- can make you a better person and change your outlook on life.   I love this game with an intense passion!  Without doubt, my greatest experience of working as a team and distinguishing myself as a leader has been through basketball.  The lessons I have learnt on the court have helped me triumph obstacles off the court and in all facets of life.  For me, basketball is not just a game.  It is a way of life. </p>
+      <!-- <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.</p> -->
+    </div>
+  </div>
+  <!-- <div class='two spacing'></div> -->
+</div>
+
+<div class='full'>
+  <div class='row'>
+    <div class='mod modGallery'>
+      <ul class='gallery large-block-grid-4 medium-block-grid-3 seperated small-block-grid-2'>
+        {% for work in page.works %}
+          <li class='{{work.class}}'>
+            <a href='{{work.link_to}}'>
+              <img alt="" src="{{site.url}}/{{work.image}}" />
+              <div class='overlay' style='background: rgba(143, 221, 115, 0.8);'>
+                <div class='thumb-info'>
+                  <h3>{{work.title}}</h3>
+                  <p>{{work.desc}}</p>
+                </div>
+              </div>
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+  <div class='four spacing'></div>
+  <!-- <div class='four spacing'></div> -->
+</div>
