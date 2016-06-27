@@ -18,6 +18,20 @@
   font-size: 1.5ems;
 }*/
 
+.title-quotes {
+  padding-top: 12rem;
+}
+
+.title-quotes .larger {
+  padding-top: 10rem;
+}
+
+.author-quote {
+  color: #fff;
+  padding: 2%;
+  background-color: rgba(0,0,0, 0.4);
+}
+
 a {
   color: #F9CE06;
   -moz-transition-duration: 0.3s;
@@ -2043,8 +2057,8 @@ body.screenshot {
 }
 
 .modDefaultSlider.advanced .sequence .title h2 {
-  letter-spacing: 4px;
-  font-size: 3rem;
+  /*letter-spacing: 4px;*/
+  font-size: 2rem;
 }
 .modFullscreenSlider .fullscreen_slideshow {
   height: 700px;

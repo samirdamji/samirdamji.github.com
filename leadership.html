@@ -1,6 +1,44 @@
 ---
 layout: default
+section_id: portfolio
+images:
+  - images/home/speaking.jpg
 ---
+
+<div class='full'>
+  <div class='row'>
+    <div class='large-8 columns'>
+      <div class='mod modBoxedSlider'>
+        <div class='slides'>
+          {% for image in page.images %}
+            <div class="slide">
+              <img src="{{site.url}}/{{image}}" alt="">
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    <div class='large-4 columns'>
+      <h4 style='color: #999'>"Earn your leadership every day." - Michael Jordan</h4>
+      <h2>Leadership</h2>
+      <p>My journey thus far has afforded me many leadership roles that have opened my world view.  I have learned that good leadership requires focus, clarity of though and above all, vision.  Being a leader is a privileged position that allows me to give back and contribute.</p>
+      <div class='spacing'></div>
+      <ul class='info'>
+        <li>
+          <div class='spacing'></div>
+          <!-- <a href='leadership.html' title='back to work list'>
+            <i class='icon-layout'></i>
+          </a> -->
+          <a href='{{site.url}}/headboy.html' title='next'>
+            <i class='icon-right-open'></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class='four spacing'></div>
+</div>
+
 
 <div class='full'>
   <div class='row'>
@@ -8,7 +46,7 @@ layout: default
       <h4 style='color: #999'>"Earn your leadership every day." - Michael Jordan</h4>
       <h2>Leadership</h2>
       <div class='spacing'></div>
-      <p><strong>REPLACE TEXT</strong> I find it truly remarkable that such a simple game –with just a ball and basket- can make you a better person and change your outlook on life.   I love this game with an intense passion!  Without doubt, my greatest experience of working as a team and distinguishing myself as a leader has been through basketball.  The lessons I have learnt on the court have helped me triumph obstacles off the court and in all facets of life.  For me, basketball is not just a game.  It is a way of life. </p>
+      <p>My journey thus far has afforded me many leadership roles that have opened my world view.  I have learned that good leadership requires focus, clarity of though and above all, vision.  Being a leader is a privileged position that allows me to give back and contribute.</p>
       <!-- <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.</p> -->
     </div>
   </div>
