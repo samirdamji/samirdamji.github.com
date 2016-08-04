@@ -18,6 +18,10 @@
   font-size: 1.5ems;
 }*/
 
+.highlighted {
+  color: #ff9933;
+}
+
 .title-quotes {
   padding-top: 12rem;
 }
@@ -30,6 +34,48 @@
   color: #fff;
   padding: 2%;
   background-color: rgba(0,0,0, 0.4);
+}
+
+.award-box {
+  margin: 2%;
+}
+
+.award-icon {
+  color: #F9CE06;
+  width: 8%;
+  margin: 2%;
+  padding: 2%;
+  background-color: #fff;
+  float: left;
+  font-size: 26px;
+}
+
+.award-text {
+  width: 84%;
+  margin: 2%;
+  padding: 2%;
+  background-color: #fff;
+  float: right;
+}
+
+.award-text h4 {
+  color: black;
+  text-decoration: underline;
+  font-style: bold;
+}
+
+.award-photos {
+  padding: 2%;
+}
+
+.barista-blurb {
+  padding: 2%;
+  background-color: rgba(0,0,0, 0.7);
+  margin: 5%;
+}
+
+.barista-text {
+  color: #fff;
 }
 
 a {
@@ -45,7 +91,7 @@ a.section-click.active {
 }
 
 a:hover {
-  color: #999;
+  color: #555555;
 }
 
 dd {
@@ -53,6 +99,7 @@ dd {
 }
 
 h1, h2, h3, h4, h5, h6 {
+  color: #F9CE06;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
@@ -503,7 +550,7 @@ form input.error, form textarea.error {
   padding: 0 10px;
 }
 .pager a {
-  color: #999;
+  color: #555555;
 }
 .pager a:hover {
   color: #F9CE06;
@@ -540,7 +587,7 @@ form input.error, form textarea.error {
 }
 .comments-wrapper ul.comments .meta .datetime {
   font-size: 0.875rem;
-  color: #999;
+  color: #555555;
 }
 
 #comments-form {
@@ -559,7 +606,7 @@ form input.error, form textarea.error {
   line-height: 1.8em;
 }
 .links a {
-  color: #999;
+  color: #555555;
 }
 .links a:hover {
   color: #333;
@@ -568,7 +615,7 @@ form input.error, form textarea.error {
 /*Footer */
 #footer {
   background: #222;
-  color: #999;
+  color: #555555;
 }
 #footer h1 {
   margin-bottom: 25px;
@@ -584,7 +631,7 @@ form input.error, form textarea.error {
   line-height: 1.875rem;
 }
 #footer ul a {
-  color: #999;
+  color: #555555;
 }
 #footer ul a:hover {
   color: #eee;
@@ -645,7 +692,7 @@ body.screenshot {
   text-transform: capitalize;
   margin-bottom: 5px;
   letter-spacing: 1px;
-  color: #999;
+  color: #555555;
 }
 .modBarGraph .bars p.highlighted {
   width: 0;
@@ -2370,7 +2417,7 @@ body.screenshot {
   margin-bottom: 0.5rem;
 }
 .modGallery .gallery-nav li a {
-  color: #999;
+  color: #555555;
 }
 .modGallery .gallery-nav li.current {
   border: 1px solid #F9CE06;
@@ -2507,7 +2554,7 @@ body {
   margin-bottom: 0.5rem;
 }
 .modMasonryGallery .gallery-nav li a {
-  color: #999;
+  color: #555555;
 }
 .modMasonryGallery .gallery-nav li.current {
   border: 1px solid #F9CE06;
@@ -2644,7 +2691,7 @@ body {
 }
 .modPriceBox li {
   background: #eee;
-  color: #999;
+  color: #555555;
 }
 .modPriceBox li.even {
   background: #f7f7f7;
@@ -2658,7 +2705,7 @@ body {
 .modPriceBox p.desc {
   font-size: 14px;
   margin-bottom: 20px;
-  color: #999;
+  color: #555555;
 }
 .modPriceBox p.price {
   font-size: 16px;
@@ -2803,7 +2850,7 @@ body {
   text-indent: -3000px;
 }
 .modStylePanel a.color_scheme:hover, .modStylePanel a.bg_pattern:hover {
-  border: 1px solid #999;
+  border: 1px solid #555555;
 }
 .modStylePanel a#yellow {
   background: #F9CE06;
@@ -3267,7 +3314,7 @@ body {
   }
 
   .contain-to-grid.alt .top-bar-section ul li > a {
-    color: #999;
+    color: #555555;
   }
   .contain-to-grid.alt .top-bar-section .has-dropdown > a:after {
     border-top-color: transparent;
@@ -3281,7 +3328,7 @@ body {
     background: #f2f2f2;
   }
   .contain-to-grid.shadowless .top-bar-section ul li.has-dropdown .dropdown li a {
-    color: #999;
+    color: #555555;
   }
   .contain-to-grid.shadowless .top-bar-section ul li.has-dropdown .dropdown li {
     background: #fff;
@@ -3300,7 +3347,7 @@ body {
     background-color: rgba(0, 0, 0, 0.8);
   }
   .contain-to-grid.transparent .top-bar-section li:not(.has-form) a:not(.button) {
-    color: #999;
+    color: #555555;
     background: transparent;
   }
   .contain-to-grid.transparent .top-bar-section .has-dropdown > a:after {
