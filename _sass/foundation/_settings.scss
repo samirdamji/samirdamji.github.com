@@ -114,7 +114,7 @@ $white       : #FFFFFF;
 // $charcoal    : #555555;
 // $tuatara     : #444444;
 // $oil         : #333333;
-$jet         : #999;
+$jet         : #555555;
 // $black       : #000000;
 
 // We use these as default colors throughout
@@ -1393,7 +1393,7 @@ $topbar-height: rem-calc(100);
 // $topbar-title-font-size: rem-calc(17);
 
 // Set the link colors and styles for top-level nav
-$topbar-link-color: #999;
+$topbar-link-color: #555555;
 $topbar-link-color-hover: #888;
 $topbar-link-color-active: #888;
 $topbar-link-color-active-hover: #888;
@@ -1421,7 +1421,7 @@ $topbar-dropdown-link-color-hover: #fff;
 $topbar-dropdown-link-bg-hover: #444;
 // $topbar-dropdown-link-weight: $font-weight-normal;
 // $topbar-dropdown-toggle-size: 5px;
-$topbar-dropdown-toggle-color: #999;
+$topbar-dropdown-toggle-color: #555555;
 // $topbar-dropdown-toggle-alpha: 0.4;
 
 // $topbar-dropdown-label-color: $monsoon;
@@ -1434,8 +1434,8 @@ $topbar-dropdown-toggle-color: #999;
 // $topbar-menu-link-transform: uppercase;
 // $topbar-menu-link-font-size: rem-calc(13);
 // $topbar-menu-link-weight: $font-weight-bold;
-$topbar-menu-link-color: #999;
-$topbar-menu-icon-color: #999;
+$topbar-menu-link-color: #555555;
+$topbar-menu-icon-color: #555555;
 // $topbar-menu-link-color-toggled: $jumbo;
 // $topbar-menu-icon-color-toggled: $jumbo;
 // $topbar-menu-icon-position: $opposite-direction; // Change to $default-float for a left menu icon

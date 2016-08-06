@@ -40,6 +40,11 @@
   margin: 2%;
 }
 
+.award-title {
+  padding: 2%;
+  background-color: rgba(0,0,0, 0.7);
+}
+
 .award-icon {
   color: #F9CE06;
   width: 8%;
@@ -76,6 +81,26 @@
 
 .barista-text {
   color: #fff;
+}
+
+.background {
+  height: 700px;
+  background-attachment: fixed;
+}
+
+.desaturate {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.econ-tinted {
+  height: 700px;
+  background:
+    linear-gradient(
+      rgba(255, 205, 6, 0.45),
+      rgba(255, 205, 6, 0.45)
+    ),
+    url(/images/economics/background3.jpg);
 }
 
 a {
@@ -285,7 +310,7 @@ ul.shortcode-list i {
 }
 .top-bar .title-area .name h1 a {
   font-size: 2rem;
-  color: #333;
+  color: #F9CE06;
 }
 
 .contain-to-grid {

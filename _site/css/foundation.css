@@ -56,7 +56,7 @@ body {
 
 body {
   background: #fff;
-  color: #999;
+  color: #555555;
   padding: 0;
   margin: 0;
   font-family: Raleway, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
@@ -1154,7 +1154,7 @@ select {
       background: #e8e8e8; }
     .accordion .accordion-navigation > a, .accordion dd > a {
       background: #EFEFEF;
-      color: #999;
+      color: #555555;
       padding: 1.14286rem;
       display: block;
       font-family: Raleway, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
@@ -3294,7 +3294,7 @@ label.error {
 kbd {
   background-color: #ededed;
   border-color: #dddddd;
-  color: #999;
+  color: #555555;
   border-style: solid;
   border-width: 1px;
   margin: 0;
@@ -3587,7 +3587,7 @@ ul.pagination {
   margin-left: -0.35714rem; }
   ul.pagination li {
     height: 1.71429rem;
-    color: #999;
+    color: #555555;
     font-size: 1rem;
     margin-left: 0.35714rem; }
     ul.pagination li a, ul.pagination li button {
@@ -4215,7 +4215,7 @@ table {
   table-layout: auto; }
   table caption {
     background: transparent;
-    color: #999;
+    color: #555555;
     font-size: 1.14286rem;
     font-weight: bold; }
   table thead {
@@ -4225,7 +4225,7 @@ table {
       padding: 0.57143rem 0.71429rem 0.71429rem;
       font-size: 1rem;
       font-weight: bold;
-      color: #999; }
+      color: #555555; }
   table tfoot {
     background: #F5F5F5; }
     table tfoot tr th,
@@ -4233,12 +4233,12 @@ table {
       padding: 0.57143rem 0.71429rem 0.71429rem;
       font-size: 1rem;
       font-weight: bold;
-      color: #999; }
+      color: #555555; }
   table tr th,
   table tr td {
     padding: 0.64286rem 0.71429rem;
     font-size: 1rem;
-    color: #999;
+    color: #555555;
     text-align: left; }
   table tr.even, table tr.alt, table tr:nth-of-type(even) {
     background: #F9F9F9; }
@@ -4267,7 +4267,7 @@ table {
     .tabs dd > a, .tabs .tab-title > a {
       display: block;
       background-color: #EFEFEF;
-      color: #999;
+      color: #555555;
       padding: 1.14286rem 2.28571rem;
       font-family: Raleway, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
       font-size: 1.14286rem; }
@@ -4277,7 +4277,7 @@ table {
         outline: none; }
     .tabs dd.active a, .tabs .tab-title.active a {
       background-color: #FFFFFF;
-      color: #999; }
+      color: #555555; }
   .tabs.radius dd:first-child a, .tabs.radius .tab:first-child a {
     -webkit-border-bottom-left-radius: 3px;
     -webkit-border-top-left-radius: 3px;
@@ -4495,7 +4495,7 @@ meta.foundation-mq-topbar {
       margin: 0; }
       .top-bar .name h1 a, .top-bar .name h2 a, .top-bar .name h3 a, .top-bar .name h4 a, .top-bar .name p a, .top-bar .name span a {
         font-weight: normal;
-        color: #999;
+        color: #555555;
         width: 75%;
         display: block;
         padding: 0 1.42857rem; }
@@ -4504,7 +4504,7 @@ meta.foundation-mq-topbar {
     right: 0;
     top: 0; }
     .top-bar .toggle-topbar a {
-      color: #999;
+      color: #555555;
       text-transform: uppercase;
       font-size: 0.92857rem;
       font-weight: bold;
@@ -4520,7 +4520,7 @@ meta.foundation-mq-topbar {
         height: 34px;
         line-height: 33px;
         padding: 0 3.21429rem 0 1.42857rem;
-        color: #999;
+        color: #555555;
         position: relative; }
         .top-bar .toggle-topbar.menu-icon a span::after {
           content: "";
@@ -4530,7 +4530,7 @@ meta.foundation-mq-topbar {
           top: 50%;
           margin-top: -8px;
           right: 1.42857rem;
-          box-shadow: 0 0 0 1px #999, 0 7px 0 1px #999, 0 14px 0 1px #999;
+          box-shadow: 0 0 0 1px #555555, 0 7px 0 1px #555555, 0 14px 0 1px #555555;
           width: 16px; }
         .top-bar .toggle-topbar.menu-icon a span:hover:after {
           box-shadow: 0 0 0 1px "", 0 7px 0 1px "", 0 14px 0 1px ""; }
@@ -4567,7 +4567,7 @@ meta.foundation-mq-topbar {
     .top-bar-section ul li > a {
       display: block;
       width: 100%;
-      color: #999;
+      color: #555555;
       padding: 12px 0 12px 0;
       padding-left: 1.42857rem;
       font-family: Raleway, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
@@ -4680,7 +4680,7 @@ meta.foundation-mq-topbar {
       width: 0;
       height: 0;
       border: inset 5px;
-      border-color: transparent transparent transparent rgba(153, 153, 153, 0.4);
+      border-color: transparent transparent transparent rgba(85, 85, 85, 0.4);
       border-left-style: solid;
       margin-right: 1.42857rem;
       margin-top: -4.5px;
@@ -4725,7 +4725,7 @@ meta.foundation-mq-topbar {
         margin-top: 0;
         font-size: 1.28571rem; }
         .top-bar-section .dropdown li.title h5 a, .top-bar-section .dropdown li.parent-link a {
-          color: #999;
+          color: #555555;
           display: block; }
           .top-bar-section .dropdown li.title h5 a:hover, .top-bar-section .dropdown li.parent-link a:hover {
             background: none; }
@@ -4817,7 +4817,7 @@ meta.foundation-mq-topbar {
         width: 0;
         height: 0;
         border: inset 5px;
-        border-color: rgba(153, 153, 153, 0.4) transparent transparent transparent;
+        border-color: rgba(85, 85, 85, 0.4) transparent transparent transparent;
         border-top-style: solid;
         margin-top: -2.5px;
         top: 3.57143rem; }
@@ -5234,7 +5234,7 @@ abbr,
 acronym {
   text-transform: uppercase;
   font-size: 90%;
-  color: #999;
+  color: #555555;
   cursor: help; }
 
 abbr {
