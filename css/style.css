@@ -40,6 +40,14 @@
   margin: 2%;
 }
 
+.trophy {
+  background-color: rgba(255,165,0, 0.25);
+}
+
+.achieve {
+  background-color: #fff;
+}
+
 .award-title {
   padding: 2%;
   background-color: rgba(0,0,0, 0.7);
@@ -50,7 +58,6 @@
   width: 8%;
   margin: 2%;
   padding: 2%;
-  background-color: #fff;
   float: left;
   font-size: 26px;
 }
@@ -59,7 +66,6 @@
   width: 84%;
   margin: 2%;
   padding: 2%;
-  background-color: #fff;
   float: right;
 }
 
@@ -101,6 +107,10 @@
       rgba(255, 205, 6, 0.45)
     ),
     url(/images/economics/background3.jpg);
+}
+
+.hpec {
+  margin-bottom: 0px;
 }
 
 a {
@@ -3350,7 +3360,7 @@ body {
     color: #888;
   }
   .contain-to-grid.shadowless .top-bar-section li.active:not(.has-form) a:not(.button):hover {
-    background: #f2f2f2;
+    background: orange;
   }
   .contain-to-grid.shadowless .top-bar-section ul li.has-dropdown .dropdown li a {
     color: #555555;
