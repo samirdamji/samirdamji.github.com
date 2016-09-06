@@ -113,6 +113,28 @@
   margin-bottom: 0px;
 }
 
+.home-title {
+  color: #fff;
+  font-size: 2em;
+  background-color: rgba(0,0,0, 0.4);
+  text-transform: lowercase;
+  line-height: 2.2rem;
+  display: inline-block;
+  padding: 2%;
+}
+
+.home-author {
+  text-transform: capitalize;
+  float: right;
+}
+
+.arrow {
+  padding-top: 1em;
+  position: absolute;
+  left: 47%;
+  margin-right: -50%;
+}
+
 a {
   color: #093294;
   -moz-transition-duration: 0.3s;

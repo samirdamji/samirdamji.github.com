@@ -4,11 +4,17 @@ section_id: economics
 
 images:
   - url: images/economics/econ1.JPG
+    caption:
   - url: images/economics/econ2.JPG
+    caption:
   - url: images/economics/econ3.JPG
+    caption: "Guess I’m a trend setter!"
   - url: images/economics/econ4.JPG
+    caption:
   - url: images/economics/econ5.JPG
+    caption: "The team and my teacher with Professor Gregory Mankiw. From studying his work in economics class to actually meeting him!"
   - url: images/economics/econ6.JPG
+    caption:
 ---
 
 <div class="full background" style="background-image: url(/images/economics/background1.png);">
@@ -46,6 +52,7 @@ images:
           {% for image in page.images %}
             <div class="slide">
               <img src="{{site.url}}/{{image.url}}" alt="">
+              <p>{{image.caption}}</p>
             </div>
           {% endfor %}
         </div>
