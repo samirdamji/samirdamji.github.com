@@ -1,6 +1,14 @@
 ---
 layout: default
 section_id: economics
+
+images:
+  - url: images/economics/econ1.JPG
+  - url: images/economics/econ2.JPG
+  - url: images/economics/econ3.JPG
+  - url: images/economics/econ4.JPG
+  - url: images/economics/econ5.JPG
+  - url: images/economics/econ6.JPG
 ---
 
 <div class="full background" style="background-image: url(/images/economics/background1.png);">
@@ -23,23 +31,31 @@ section_id: economics
       <div class="medium-offset-8 medium-5 barista-blurb">
         <h1 class="hpec">HPEC 2016</h1><h4 class="barista-text">Harvard’s Pre-Collegiate Economics Challenge</h4>
         <div class="spacing"></div>
-        <h4 class="barista-text">I was extremely fortunate to be able to represent both my school and my country at this renowned economics competition. I was able to network with like-minded students from around the world, delve deeper into my passion, and meet my long-time inspiration Professor Gregory Mankiw. My team of four posted the highest score in the written portion of the competition, and qualified as one of the top 16 teams; this is just after learning one year of economics!</h4>
       </div>
     </div>
 
   </div>
 </div>
 
-<div class="full econ-tinted">
+<div class="full">
   <div class="row">
 
-    <div class="large-12 columns">
-      <div class="medium-offset-8 medium-5 barista-blurb">
-        <!-- <h1>HPEC 2016</h1>
-        <h4 class="barista-text">(Harvard’s Pre-Collegiate Economics Challenge)</h4>
-        <h4 class="barista-text">I was extremely fortunate to be able to represent both my school and my country at this renowned economics competition. I was able to network with like-minded students from around the world, delve deeper into my passion, and meet my long-time inspiration Professor Gregory Mankiw. My team of four posted the highest score in the written portion of the competition, and qualified as one of the top 16 teams; this is just after learning one year of economics!</h4> -->
+    <div class='large-7 columns'>
+      <div class='mod modBoxedSlider'>
+        <div class='slides'>
+          {% for image in page.images %}
+            <div class="slide">
+              <img src="{{site.url}}/{{image.url}}" alt="">
+            </div>
+          {% endfor %}
+        </div>
       </div>
     </div>
-
+    <div class='large-5 columns'>
+      <div class="spacing"></div>
+      <p>I was extremely fortunate to be able to represent both my school and my country at this renowned economics competition. I was able to network with like-minded students from around the world, delve deeper into my passion, and meet my long-time inspiration Professor Gregory Mankiw. My team of four posted the highest score in the written portion of the competition, and qualified as one of the top 16 teams; this is just after learning one year of economics!<p>
+      <div class='spacing'></div>
+    </div>
+    <div class='spacing'></div>
   </div>
 </div>

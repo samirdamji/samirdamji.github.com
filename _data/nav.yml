@@ -1,5 +1,4 @@
 - name: Leadership
-  path: leadership.html
   section_id: leadership
   children:
     - name: Headboy
@@ -19,7 +18,7 @@
   section_id: accomplishments
 - name: Passions
   section_id: passions
-  children: 
+  children:
   - name: Economics
     path: economics.html
     section_id: economics
