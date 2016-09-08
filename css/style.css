@@ -41,14 +41,6 @@
   margin: 2%;
 }
 
-.trophy {
-  background-color: rgba(0,0,0, 0.2);
-}
-
-.achieve {
-  background-color: #fff;
-}
-
 .award-title {
   padding: 2%;
   background-color: rgba(0,0,0, 0.2);
@@ -61,6 +53,7 @@
   padding: 2%;
   float: left;
   font-size: 26px;
+  background-color: #fff;
 }
 
 .award-text {
@@ -68,6 +61,7 @@
   margin: 2%;
   padding: 2%;
   float: right;
+  background-color: #fff;
 }
 
 .award-text h4 {
@@ -94,6 +88,7 @@
 .background {
   height: 700px;
   background-attachment: fixed;
+  position: relative;
 }
 
 .desaturate {
@@ -136,6 +131,14 @@
 }
 
 .arrow {
+  padding-top: 1em;
+  position: absolute;
+  left: 47%;
+  bottom: 2em;
+  margin-right: -50%;
+}
+
+.arrow-home {
   padding-top: 1em;
   position: absolute;
   left: 47%;
@@ -348,8 +351,8 @@ ul.shortcode-list i {
   z-index: 100;
 }
 .top-bar .title-area .name h1 a {
-  font-size: 3rem;
-  font-weight: 500;
+  font-size: 4rem;
+  font-weight: 700;
   color: #093294;
 }
 

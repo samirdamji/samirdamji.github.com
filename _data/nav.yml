@@ -19,6 +19,9 @@
 - name: Passions
   section_id: passions
   children:
+  - name: Public Speaking
+    path: public-speaking.html
+    section_id: public-speaking
   - name: Economics
     path: economics.html
     section_id: economics
@@ -28,9 +31,6 @@
   - name: Philanthropy
     path: philanthropy.html
     section_id: philanthropy
-  - name: Public Speaking
-    path: public-speaking.html
-    section_id: public-speaking
 - name: Contact
   path: contact.html
   section_id: contact
